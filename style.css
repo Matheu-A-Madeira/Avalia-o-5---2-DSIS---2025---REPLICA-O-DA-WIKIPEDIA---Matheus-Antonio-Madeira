@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #000000;
+}
+
+header, footer{
+    background-color: #7d7878;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #898282;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+}
+
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 0 5px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#Historia{
+    background-color: #aaa6a6;
+}
+
+.Historia{
+    color: aliceblue;
+}
+
+.Historia:hover{
+    color: rgb(255, 0, 0);
+}
+
+#Curiosidades{
+    background-color: #727070;
+}
+
+.Curiosidades{
+    color: aliceblue;
+}
+
+.Curiosidades:hover{
+    color: rgb(255, 221, 0);
+}
+
+#Biografia{
+    background-color: #aaa6a6;
+}
+
+.Biografia{
+    color: aliceblue;
+}
+
+.Biografia:hover{
+    color: rgb(255, 0, 0);
+}
+
+#Referrencias{
+    background-color: #727070;
+}
+
+.Referrencias{
+    color: aliceblue;
+}
+
+.Referrencias:hover{
+   color: rgb(255, 221, 0);
+}
+
+h1, h2{
+    color: #000000;
+}
+
+p {
+    color: #290606;
+}
+
+ul {
+    list-style-type: decimal;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+}
