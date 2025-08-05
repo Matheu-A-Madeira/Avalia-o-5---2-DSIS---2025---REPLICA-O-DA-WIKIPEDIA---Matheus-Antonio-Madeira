@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" id="link_css">
     <title>Mikhail_Kalashnikov</title>
 </head>
 
 <body>
     <img src="./wikipedia.png"> <h1>Wikipedia</h1>
     <input type="text">
+    <h4>(APERTE F5 PARA VOLTAR AO MODO CLARO)</h4>
     <header>
-        <h1>Mikhail_Kalashnikov</h1>
+        <h2>Mikhail_Kalashnikov</h2>
         <p>Criador da AK47 </p>
     </header>
     <nav>
@@ -21,12 +22,25 @@
             <li><a href="#Curiosidades" class="Curiosidades">Curiosidades</a></li>
             <li><a href="#Biografia" class="Biografia">Biografia</a></li>
             <li><a href="#Referrencias" class="Referrencias">Referrencias</a></li>
+            <button onclick="
+            let baruga = document.getElementById('link_css')
+            if (baruga.href= 'style.css'){
+
+                baruga.href = 'style2.css'
+
+
+            }
+            else {
+                baruga.href = 'style.css'
+            }
+            
+            "> Tema Escuro </button>
         </ul>
     </nav>
 
     <main>
         <section id="Historia">
-            <h2>Historia</h2>
+            <h3>Historia</h3>
             <p>Mikhail Timofeevich Kalashnikov, (em russo: Михаил Тимофеевич Калашников, transl. Mihail Timofeevič
                 Kalašnikov; Kurya, Altai, 10 de novembro de 1919 — Ijevsk, 23 de dezembro de 2013) foi um militar,
                 inventor e armeiro russo, projetista de armas notável pelo célebre fuzil de assalto AK-47 e suas
@@ -51,7 +65,7 @@
         </section>
 
         <section id="Curiosidades">
-            <h2>Curiosidades</h2>
+            <h3>Curiosidades</h3>
             <ul>
                 <li>
                     Depois de completar a sétima série, Mikhail, com a permissão de seu padrasto, deixou sua família e
@@ -84,7 +98,7 @@
         </section>
 
         <section id="Biografia">
-            <h2>Biografia</h2>
+            <h3>Biografia</h3>
             <img src="./Kalashnikov_Mikhail.png">
             <p>
                 Mikhail Kalashnikov nasceu em 10 de novembro de 1919 em Kurya, na província de Altai, na União
@@ -107,7 +121,7 @@
         </section>
 
         <section id="Referrencias">
-            <h2>Referrencias</h2>
+            <h3>Referrencias</h3>
             <p>
                 <a href="https://pt.wikipedia.org/wiki/Mikhail_Kalashnikov">Wikipedia Oficial</a>
             </p>
@@ -119,7 +133,5 @@
     </footer>
 
 </body>
-
-<link rel="indexjs" href="index.js">
 
 </html>
